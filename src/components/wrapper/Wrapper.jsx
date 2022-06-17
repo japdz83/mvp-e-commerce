@@ -27,7 +27,7 @@ const Wrapper = () => {
     return (
         <>
             <section className="wrapper background">
-                <div className="container grid2">
+                <div className="container grid2 wrapper-grid">
                     {data.map((val, index) => (
                         <div className="product" key={index}>
                             <div className="img icon-circle">

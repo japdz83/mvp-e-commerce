@@ -36,3 +36,24 @@ footer li {
     margin-bottom: 10px;
     opacity: 0.5;
 }
+@media (max-width: 992px) {
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+}
+@media (max-width: 480px) {
+    .footer-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+}

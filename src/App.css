@@ -268,7 +268,43 @@ button {
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
 }
-
+@media (max-width: 992px) {
+    .arrivals-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .arrivals-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+    .contentWidth {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    .arrivals-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+    .contentWidth {
+        width: 100%;
+    }
+}
+@media (max-width: 400px) {
+    .arrivals-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+    .contentWidth {
+        width: 100%;
+    }
+}
 .icon-gift {
     color: var(--secondary-dos);
     font-size: 25px;

@@ -199,3 +199,48 @@ header ul li a:hover {
         line-height: 60px;
     }
 }
+@media (max-width: 992px) {
+    .arrivals-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+    }
+}
+@media (max-width: 768px) {
+    .search {
+        display: none;
+    }
+    .head {
+        display: none;
+    }
+    .categories {
+        display: none;
+    }
+    .open {
+        top: 3%;
+        right: 35px;
+        color: var(--secondary-dos);
+        display: block;
+        font-size: 30px;
+        z-index: 999;
+    }
+}
+@media (max-width: 480px) {
+    .search {
+        display: none;
+    }
+    .head {
+        display: none;
+    }
+    .categories {
+        display: none;
+    }
+    .open {
+        top: 2%;
+        right: 35px;
+        color: var(--secondary-dos);
+        display: block;
+        font-size: 30px;
+        z-index: 999;
+    }
+}
